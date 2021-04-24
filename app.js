@@ -43,7 +43,7 @@ const getLyric = async (artist, title) => {
         displayLyrics(data.lyrics);
     }
     catch(error){
-        displayError('Sorry! I failed to load lyrics, please try again later.')
+        displayError('Sorry! I failed to load lyrics, please try again later. Thanks.')
     }
 }
 
